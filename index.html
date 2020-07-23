@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>
+		Exploding Airplanes
+	</title>
+	<script type="text/javascript">
+		function startGame(game_level){
+			var gameLevel = document.getElementById(game_level).value;
+			window.location.href = 'game.html?'+gameLevel; 
+		}
+	</script>
+</head>
+<body>
+	<div>
+		<p>
+			<strong>Game level</strong>
+			<select id="game_level">
+				<option value="1">Easy</option>
+				<option value="2">Medium</option>
+				<option value="3">Hard</option>
+			</select>
+		</p>
+		<img src="imagens/iniciar.png" onclick="startGame('game_level')">
+	</div>
+</body>
+</html>

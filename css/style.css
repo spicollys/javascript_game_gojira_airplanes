@@ -1,0 +1,38 @@
+.status-bar{
+	float: left; 
+	width: auto; 
+	height: 500px; 
+	background: #fff; 
+	border: 1px solid black;
+}
+
+.stopwatch{
+	width: 140px; 
+	height: 132px;
+}
+
+.stopwatch tr td{
+	background: url('../imagens/cronometro.png');
+	text-align: center;
+}
+
+#full, #poped{
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+	color: black;
+	font-size: 30px;
+}
+
+#stopwatch{
+	font-family: Impact, Charcoal, sans-serif;
+	color: black;
+	font-size: 30px;
+}
+
+#background-scenario{
+	background: url('../imagens/cenario2.png');
+	float: left;
+	width: 600px;
+	height: 500px;
+	background-position: bottom;
+}
